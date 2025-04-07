@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -16,7 +15,7 @@ export default function Home() {
 
       <section id="welcome-section" className={styles.welcomeSection}>
         <div className={styles.welcomeContent}>
-          <h1>Hi, I'm Cong Son</h1>
+          <h1>Hi, I&apos;m Cong Son</h1>
           <p className={styles.subtitle}>Full Stack Web Developer</p>
           <p className={styles.description}>I create beautiful, responsive websites with modern technologies.</p>
           <div className={styles.ctaButtons}>
@@ -77,8 +76,8 @@ export default function Home() {
         <h2>About Me</h2>
         <div className={styles.aboutContent}>
           <div className={styles.aboutText}>
-            <p>I'm a passionate web developer with 2 years of experience creating responsive and user-friendly websites. My expertise includes HTML, CSS, JavaScript, React, Node.js, and more.</p>
-            <p>I enjoy solving complex problems and turning ideas into reality through code. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities.</p>
+            <p>I&apos;m a passionate web developer with 2 years of experience creating responsive and user-friendly websites. My expertise includes HTML, CSS, JavaScript, React, Node.js, and more.</p>
+            <p>I enjoy solving complex problems and turning ideas into reality through code. When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities.</p>
             <div className={styles.skills}>
               <h3>Skills</h3>
               <div className={styles.skillTags}>
@@ -99,7 +98,7 @@ export default function Home() {
       <section id="contact" className={styles.contact}>
         <h2>Get In Touch</h2>
         <div className={styles.contactContent}>
-          <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+          <p>I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
           <div className={styles.contactInfo}>
             <div className={styles.contactItem}>
               <i className="fas fa-envelope"></i>
