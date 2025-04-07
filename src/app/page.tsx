@@ -31,13 +31,13 @@ export default function Home() {
           <div className={styles.projectTile}>
             <div style={{ width: '100%', height: '200px', position: 'relative', backgroundColor: '#f0f0f0' }}>
               <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                E-commerce Website
+                To-do Web
               </div>
             </div>
-            <h3>E-commerce Website</h3>
+            <h3>To-do Web</h3>
             <p>A full-featured online store with payment integration and inventory management.</p>
             <div className={styles.projectLinks}>
-              <a href="#" className={styles.btn}>View Project</a>
+              <a href="https://to-do-list-woad-eight.vercel.app/" className={styles.btn}>View Project</a>
               <a href="#" className={styles.btn}>Source Code</a>
             </div>
           </div>
@@ -45,13 +45,13 @@ export default function Home() {
           <div className={styles.projectTile}>
             <div style={{ width: '100%', height: '200px', position: 'relative', backgroundColor: '#f0f0f0' }}>
               <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                Task Management App
+                Management OverTime Web
               </div>
             </div>
-            <h3>Task Management App</h3>
+            <h3>Management OverTime Web</h3>
             <p>A productivity app that helps users organize tasks and track progress.</p>
             <div className={styles.projectLinks}>
-              <a href="#" className={styles.btn}>View Project</a>
+              <a href="https://final-project-app-tau.vercel.app/" className={styles.btn}>View Project</a>
               <a href="#" className={styles.btn}>Source Code</a>
             </div>
           </div>
@@ -59,13 +59,13 @@ export default function Home() {
           <div className={styles.projectTile}>
             <div style={{ width: '100%', height: '200px', position: 'relative', backgroundColor: '#f0f0f0' }}>
               <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                Weather Dashboard
+                Weather Web
               </div>
             </div>
-            <h3>Weather Dashboard</h3>
+            <h3>Weather Web</h3>
             <p>A weather application that provides forecasts using a third-party API.</p>
             <div className={styles.projectLinks}>
-              <a href="#" className={styles.btn}>View Project</a>
+              <a href="https://weather-web-gamma-nine.vercel.app/" className={styles.btn}>View Project</a>
               <a href="#" className={styles.btn}>Source Code</a>
             </div>
           </div>
